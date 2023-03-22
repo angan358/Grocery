@@ -78,13 +78,13 @@ body {
 
 .menu li a:hover,
 .menu .active {
-    color: #40aa54;
-    transition: all ease 0.3s;
+  color: #40aa54;
+  transition: all ease 0.3s;
 }
 
 /* search-banner ============ */
 
-#search-banner{
+#search-banner {
   max-width: 1250px;
   height: 500px;
   border-radius: 30px;
@@ -99,10 +99,9 @@ body {
   padding: 20px;
   display: flex;
   align-items: center;
-
 }
 
-.bg-1{
+.bg-1 {
   position: absolute;
   left: -50px;
   top: -150px;
@@ -111,7 +110,7 @@ body {
   object-fit: contain;
 }
 
-.bg-2{
+.bg-2 {
   position: absolute;
   left: 60%;
   transform: translateX(-60%);
@@ -122,26 +121,103 @@ body {
   object-fit: contain;
 }
 
-.search-banner-text{
+.search-banner-text {
   display: flex;
   flex-direction: column;
   width: 500px;
   margin-left: 70px;
   position: relative;
 }
- .search-banner-text h1{
+.search-banner-text h1 {
   font-size: 3rem;
   line-height: 55px;
   color: #202020;
- }
+}
 
- .search-banner-text strong{
+.search-banner-text strong {
   color: #4eb060;
   font-size: 1.4rem;
- }
+}
 
- .search-box{
+.search-box {
   position: absolute;
   top: 340px;
   left: 90px;
- }
+}
+
+.search-box {
+  background-color: #ffff;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+  padding: 0px 180px 0px 20px;
+  border-radius: 34px;
+}
+
+.search-box i{
+  font-size: 1.3rem;
+  color: #3b3b3b;
+  margin: 0px 10px;
+}
+
+.search-box .search-input{
+  height: 40px;
+  border: none;
+  width: 100%;
+  padding: 0px 10px;
+  outline: none;
+}
+
+.search-box .search-btn{
+  width: 200px;
+  height: 40px;
+  border-radius: 34px;
+  background-color: #4eb060;
+  border: none;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+
+.search-box .search-btn:hover{
+  background-color: #5ccf71;
+  transition: all ease 0.3s;
+}
+
+/* Category section======================= */
+
+
+#category{
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  margin: 50px auto;
+}
+
+.category-heading{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.category-heading h2{
+  font-size: 1.56rem;
+  font-weight: 700;
+  color: #202020;
+  letter-spacing: 0.5px;
+
+
+}
+
+
+.category-heading span{
+  color: #a7a7a7;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.category-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
