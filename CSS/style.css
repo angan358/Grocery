@@ -188,7 +188,8 @@ body {
 
 
 #category,
-#popular-product {
+#popular-product,
+#popular-bundle-pack{
   display: flex;
   flex-direction: column;
   max-width: 1000px;
@@ -344,4 +345,17 @@ body {
   top: 20px;
   color: #c9c9c9;
   font-size: 1.3rem;
+}
+
+#popular-bundle-pack{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1150px;
+  margin: 50px auto;
+  padding: 60px 0px 20px 0px;
+  border-radius: 20px;
+  background-color: #ecf7ee;
+  border: 1px solid #f3f3f3;
+  align-items: center;
 }
